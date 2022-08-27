@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/bg.webp);
+    
+    background-size: cover;
+}
+section{
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+section > div{
+    margin: 1em;
+    border-radius: 400px;
+    align-items: center;
+}
+
+section>div:hover{
+    animation-delay: 1000ms;
+    margin: 0.7em;
+    
+}
+
+h1{
+    position: absolute;
+    visibility: hidden;
+    width: auto;
+    top: 45%;
+}
